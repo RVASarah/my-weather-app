@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(39, 199, 171) 0%,
+    rgb(37, 123, 189) 90%
+  );
+}
+h1 {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-weight: 350;
+}
+h2 {
+  display: block;
+  margin: 0;
+  color: rgb(207, 236, 245);
+  font-size: 20px;
+  padding: 15px;
+}
+h3 {
+  display: block;
+  margin: 0;
+  color: white;
+  font-size: 25px;
+  padding: 15px;
+}
+p {
+  margin: 0 auto;
+}
+.search-form {
+  width: 20%;
+  background-color: whitesmoke;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.data-display {
+  text-align: center;
+  border: solid;
+  border-color: whitesmoke;
+  display: block;
+  background-color: rgb(48, 133, 199, 0.33);
+  margin: 20px auto;
+  padding: 15px;
+  width: 600px;
+  border-radius: 20px;
+  border: 25px 25px 40px 0px rgb(70, 143, 197, 0.33);
+}
+.current {
+  text-align: center;
+  padding: 15px;
+  font-size: 30px;
+  color: white;
+}
+.current-temperature {
+  font-size: 45px;
+  font-weight: bold;
+}
+.cloud-icon {
+  font-size: 45px;
+}
+.forecast-cards {
+  margin: 15px;
+}
+.sunday-card,
+.monday-card,
+.tuesday-card,
+.wednesday-card,
+.thursday-card {
+  background-color: rgb(37, 123, 189);
+  text-align: center;
+  font-size: 25px;
+  color: whitesmoke;
+  padding: 10px;
+  border: solid whitesmoke;
+}
+.bolt-icon,
+.cloud-sun-icon {
+  padding: 10px;
+}
+.high {
+  color: whitesmoke;
+  font-weight: bold;
+}
+.low {
+  color: white;
+  font-weight: lighter;
+}
