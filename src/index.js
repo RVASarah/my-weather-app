@@ -19,9 +19,6 @@ function getCurrentLocation(event) {
 let searchForm = document.querySelector("#search-bar");
 searchForm.addEventListener("submit", searchCity);
 
-let currentLocationButton = document.querySelector("#current-location-button");
-currentLocationButton.addEventListener("click", getCurrentLocation);
-
 function displayCityWeather(response) {
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
