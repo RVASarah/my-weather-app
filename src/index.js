@@ -1,6 +1,5 @@
 //Search Engine
 function searchCity(event) {
-  debugger;
   event.preventDefault();
   let city = document.querySelector("#city");
   let cityName = document.querySelector("#city-input");
