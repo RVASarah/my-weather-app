@@ -31,12 +31,16 @@ h3 {
 p {
   margin: 0 auto;
 }
+a {
+  color: aquamarine;
+}
 .search-form {
   width: 20%;
   background-color: whitesmoke;
   margin-top: 20px;
   border-radius: 20px;
 }
+
 .data-display {
   text-align: center;
   border: solid;
@@ -55,12 +59,15 @@ p {
   font-size: 30px;
   color: white;
 }
-.current-temperature {
+.temperature {
   font-size: 45px;
   font-weight: bold;
 }
 .cloud-icon {
   font-size: 45px;
+}
+.real-feel {
+  font-size: 20px;
 }
 .forecast-cards {
   margin: 15px;
